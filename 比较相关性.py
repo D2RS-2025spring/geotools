@@ -127,9 +127,14 @@ def visualize_results(observed, predicted, mask, difference_map, metrics):
     return fig
 
 def main():
-    # 实测数据和模型预测数据路径
-    observed_lai_path = Path(r"D:\丹江口市生态产品价值核算论文\LAI\LAI_B3.tif")
-    predicted_lai_path = Path(r"D:\丹江口市生态产品价值核算论文\数据\土壤侵蚀量计算2\现期侵蚀量计算\B.tif")
+    # 用户输入两张TIFF图像的路径
+    print("请输入需要比较的两张TIFF图像路径")
+    observed_path_input = input("请输入第一张TIFF图像路径 (观测值): ").strip()
+    predicted_path_input = input("请输入第二张TIFF图像路径 (预测值): ").strip()
+    
+    # 转换为Path对象
+    observed_lai_path = Path(observed_path_input)
+    predicted_lai_path = Path(predicted_path_input)
     
     # 检查文件是否存在
     for path in [observed_lai_path, predicted_lai_path]:
