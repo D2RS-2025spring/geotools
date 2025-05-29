@@ -132,6 +132,10 @@ def main():
     observed_path_input = input("请输入第一张TIFF图像路径 (观测值): ").strip()
     predicted_path_input = input("请输入第二张TIFF图像路径 (预测值): ").strip()
     
+    # 去除可能存在的引号
+    observed_path_input = observed_path_input.strip('"\'')
+    predicted_path_input = predicted_path_input.strip('"\'')
+    
     # 转换为Path对象
     observed_lai_path = Path(observed_path_input)
     predicted_lai_path = Path(predicted_path_input)

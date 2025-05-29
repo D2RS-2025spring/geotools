@@ -57,10 +57,22 @@ def batch_reproject(input_dir, output_dir, reference_raster):
 
 
 if __name__ == "__main__":
-    # 输入输出路径
-    input_dir = r"E:\下载数据\gee data\LAI_500m_HalfMonth_2000_out" # 输入目录
-    output_dir = r"E:\下载数据\gee data\LAI_500m_HalfMonth_2000_out_ty" # 输出目录
-    reference_raster = r"D:\丹江口市生态产品价值核算论文\数据\土壤侵蚀量计算2\现期侵蚀量计算\A.tif" # 参考栅格文件路径 
+    # 获取用户输入的路径
+    print("请输入以下路径信息（可直接复制粘贴带引号的路径）：")
+    input_dir = input("输入原始TIFF文件所在文件夹路径: ").strip().strip('"\'')
+    output_dir = input("输入投影转换后TIFF文件保存路径: ").strip().strip('"\'')
+    reference_raster = input("输入参考栅格文件路径: ").strip().strip('"\'' )
+
+    # 检查路径是否存在
+    if not os.path.exists(input_dir):
+        print(f"错误: 输入目录不存在: {input_dir}")
+        exit(1)
+    if not os.path.exists(reference_raster):
+        print(f"错误: 参考栅格文件不存在: {reference_raster}")
+        exit(1)
+    
+    # 确保输出目录存在
+    os.makedirs(output_dir, exist_ok=True)
 
     # 执行批量重投影
     batch_reproject(input_dir, output_dir, reference_raster)

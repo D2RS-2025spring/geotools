@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 
 def determine_soil_texture(sand_2_0_2, sand_0_2_0_02, silt_0_02_0_002, clay_lt_0_002):
@@ -62,33 +63,19 @@ def determine_soil_texture(sand_2_0_2, sand_0_2_0_02, silt_0_02_0_002, clay_lt_0
         return "无法分类", False
 
 
-def compare_texture(original, calculated):
-    """比较两个土壤质地是否一致（考虑同义词）"""
-    if pd.isna(original):
-        return "原始数据为空"
+# 获取用户输入的Excel文件路径
+file_path = input("请输入需要计算土壤质地的Excel表格路径: ").strip().strip('"\'' )
 
-    # 常见同义词映射（可根据实际情况补充）
-    synonyms = {
-        "黏土": ["粘土"],
-        "砂土": ["砂土及壤质砂土"],
-        "壤土": ["砂质壤土", "粉砂质壤土"]  # 示例，需要根据实际分类标准调整
-    }
-
-    # 检查是否完全相同
-    if original == calculated:
-        return "一致"
-
-    # 检查是否为同义词
-    for key, values in synonyms.items():
-        if (original in values and calculated == key) or (calculated in values and original == key):
-            return "同义词"
-
-    return "不一致"
-
-
-# 读取Excel文件
-file_path = r"C:\Users\zll16\Desktop\机械组成.xlsx"
 try:
+    # 检查文件是否存在
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"错误: 文件不存在 - {file_path}")
+
+    # 生成输出路径（在输入文件同目录下）
+    file_dir = os.path.dirname(file_path)
+    file_name = os.path.splitext(os.path.basename(file_path))[0]
+    output_path = os.path.join(file_dir, f"{file_name}_土壤质地结果.xlsx")
+
     # 读取Excel文件
     df = pd.read_excel(file_path)
 
@@ -114,36 +101,22 @@ try:
             sand_2_0_2, sand_0_2_0_02, silt_0_02_0_002, clay_lt_0_002
         )
 
-        # 获取原始土壤质地（如果有）
-        original_texture = row.get('机械组成土壤质地', None)
-
-        # 比较结果
-        comparison = compare_texture(original_texture, texture) if '机械组成土壤质地' in df.columns else "无原始数据"
-
         results.append({
             '计算土壤质地': texture,
-            '数据有效性': "有效" if is_valid else "无效",
-            '原始土壤质地': original_texture if '机械组成土壤质地' in df.columns else None,
-            '一致性判断': comparison
+            '数据有效性': "有效" if is_valid else "无效"
         })
 
     # 合并结果到原DataFrame
     result_df = pd.concat([df, pd.DataFrame(results)], axis=1)
 
     # 保存结果到新文件
-    output_path = r"C:\Users\zll16\Desktop\机械组成_土壤质地结果.xlsx"
     result_df.to_excel(output_path, index=False)
 
     print(f"处理完成，结果已保存到: {output_path}")
 
-    # 输出统计信息
-    if '机械组成土壤质地' in df.columns:
-        stats = pd.DataFrame(results)['一致性判断'].value_counts()
-        print("\n一致性统计:")
-        print(stats.to_string())
-
-        valid_count = sum([1 for r in results if r['数据有效性'] == "有效"])
-        print(f"\n有效数据: {valid_count}/{len(results)} ({valid_count / len(results):.1%})")
+    # 输出有效数据统计
+    valid_count = sum([1 for r in results if r['数据有效性'] == "有效"])
+    print(f"\n有效数据: {valid_count}/{len(results)} ({valid_count / len(results):.1%})")
 
 except FileNotFoundError:
     print(f"错误: 文件未找到 - {file_path}")

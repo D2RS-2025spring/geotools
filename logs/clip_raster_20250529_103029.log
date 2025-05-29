@@ -1,0 +1,23 @@
+2025-05-29 10:30:29,130 - INFO - Starting raster clipping process...
+2025-05-29 10:30:58,293 - INFO - Reading shapefile...
+2025-05-29 10:30:58,314 - ERROR - Critical error: Unable to open E:\exam\geotools\示例数据\批量裁剪\shp文件\丹江口市行政边界.shx or E:\exam\geotools\示例数据\批量裁剪\shp文件\丹江口市行政边界.SHX. Set SHAPE_RESTORE_SHX config option to YES to restore or create it.
+2025-05-29 10:30:58,315 - ERROR - Traceback (most recent call last):
+  File "e:\exam\geotools\批量裁剪.py", line 130, in main
+    gdf = gpd.read_file(shapefile_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zll16\anaconda3\Lib\site-packages\geopandas\io\file.py", line 294, in _read_file
+    return _read_file_pyogrio(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zll16\anaconda3\Lib\site-packages\geopandas\io\file.py", line 547, in _read_file_pyogrio
+    return pyogrio.read_dataframe(path_or_bytes, bbox=bbox, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zll16\anaconda3\Lib\site-packages\pyogrio\geopandas.py", line 265, in read_dataframe
+    result = read_func(
+             ^^^^^^^^^^
+  File "C:\Users\zll16\anaconda3\Lib\site-packages\pyogrio\raw.py", line 198, in read
+    return ogr_read(
+           ^^^^^^^^^
+  File "pyogrio\\_io.pyx", line 1240, in pyogrio._io.ogr_read
+  File "pyogrio\\_io.pyx", line 220, in pyogrio._io.ogr_open
+pyogrio.errors.DataSourceError: Unable to open E:\exam\geotools\示例数据\批量裁剪\shp文件\丹江口市行政边界.shx or E:\exam\geotools\示例数据\批量裁剪\shp文件\丹江口市行政边界.SHX. Set SHAPE_RESTORE_SHX config option to YES to restore or create it.
+

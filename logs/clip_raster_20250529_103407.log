@@ -1,0 +1,36 @@
+2025-05-29 10:34:07,488 - INFO - Starting raster clipping process...
+2025-05-29 10:35:10,694 - INFO - Reading shapefile...
+2025-05-29 10:35:10,807 - INFO - Using raster as reference: LAI_20010209_20010224.tif
+2025-05-29 10:35:10,808 - INFO - Found 24 TIF files to process
+2025-05-29 10:35:10,826 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000215_20000301.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,828 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000301_20000316.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,830 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000316_20000331.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,833 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000331_20000415.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,835 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000415_20000430.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,836 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000430_20000515.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,838 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000515_20000530.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,840 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000530_20000614.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,842 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000614_20000629.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,844 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000629_20000714.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,846 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000714_20000729.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,847 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000813_20000828.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,849 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000828_20000912.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,851 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000912_20000927.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,853 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20000927_20001012.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,855 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20001012_20001027.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,857 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20001027_20001111.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,859 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20001111_20001126.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,861 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20001126_20001211.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,863 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20001211_20001226.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,865 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20001226_20010110.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,867 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20010110_20010125.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,869 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20010125_20010209.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,871 - ERROR - Error processing E:\exam\geotools\示例数据\批量裁剪\需要裁剪的tiff\LAI_20010209_20010224.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 10:35:10,871 - INFO - 
+Processing completed:
+- Total files: 24
+- Successfully processed: 0
+- Failed: 24
+- Success rate: 0.00%
+- Reference raster: LAI_20010209_20010224.tif
+        

@@ -1,0 +1,108 @@
+2025-05-29 10:32:10,947 - INFO - Starting raster clipping process...
+2025-05-29 10:32:25,068 - INFO - Reading shapefile...
+2025-05-29 10:32:25,186 - INFO - Found 24 TIF files to process
+2025-05-29 10:32:25,186 - INFO - 从矢量文件中提取了 1 个几何要素
+2025-05-29 10:32:25,186 - INFO - Shapefile坐标系: PROJCRS["CGCS2000_ALBERS",BASEGEOGCRS["China Geodetic Coordinate System 2000",DATUM["China 2000",ELLIPSOID["CGCS2000",6378137,298.257222101,LENGTHUNIT["metre",1]],ID["EPSG",1043]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Albers Equal Area",ID["EPSG",9822]],PARAMETER["Latitude of false origin",0,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",105,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",25,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",47,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,3],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1,ID["EPSG",9001]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1,ID["EPSG",9001]]],AXIS["ellipsoidal height (h)",up,ORDER[3],LENGTHUNIT["metre",1,ID["EPSG",9001]]]]
+2025-05-29 10:32:25,194 - INFO - 开始处理: LAI_20000215_20000301.tif
+2025-05-29 10:32:25,209 - INFO - 执行裁剪操作: LAI_20000215_20000301.tif
+2025-05-29 10:32:25,221 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,221 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,221 - INFO - 开始处理: LAI_20000301_20000316.tif
+2025-05-29 10:32:25,222 - INFO - 执行裁剪操作: LAI_20000301_20000316.tif
+2025-05-29 10:32:25,245 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,246 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,246 - INFO - 开始处理: LAI_20000316_20000331.tif
+2025-05-29 10:32:25,247 - INFO - 执行裁剪操作: LAI_20000316_20000331.tif
+2025-05-29 10:32:25,257 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,257 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,257 - INFO - 开始处理: LAI_20000331_20000415.tif
+2025-05-29 10:32:25,258 - INFO - 执行裁剪操作: LAI_20000331_20000415.tif
+2025-05-29 10:32:25,268 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,268 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,268 - INFO - 开始处理: LAI_20000415_20000430.tif
+2025-05-29 10:32:25,270 - INFO - 执行裁剪操作: LAI_20000415_20000430.tif
+2025-05-29 10:32:25,279 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,279 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,279 - INFO - 开始处理: LAI_20000430_20000515.tif
+2025-05-29 10:32:25,281 - INFO - 执行裁剪操作: LAI_20000430_20000515.tif
+2025-05-29 10:32:25,290 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,290 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,291 - INFO - 开始处理: LAI_20000515_20000530.tif
+2025-05-29 10:32:25,292 - INFO - 执行裁剪操作: LAI_20000515_20000530.tif
+2025-05-29 10:32:25,302 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,302 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,302 - INFO - 开始处理: LAI_20000530_20000614.tif
+2025-05-29 10:32:25,303 - INFO - 执行裁剪操作: LAI_20000530_20000614.tif
+2025-05-29 10:32:25,313 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,313 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,313 - INFO - 开始处理: LAI_20000614_20000629.tif
+2025-05-29 10:32:25,315 - INFO - 执行裁剪操作: LAI_20000614_20000629.tif
+2025-05-29 10:32:25,324 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,324 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,325 - INFO - 开始处理: LAI_20000629_20000714.tif
+2025-05-29 10:32:25,326 - INFO - 执行裁剪操作: LAI_20000629_20000714.tif
+2025-05-29 10:32:25,335 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,335 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,335 - INFO - 开始处理: LAI_20000714_20000729.tif
+2025-05-29 10:32:25,337 - INFO - 执行裁剪操作: LAI_20000714_20000729.tif
+2025-05-29 10:32:25,346 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,347 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,347 - INFO - 开始处理: LAI_20000813_20000828.tif
+2025-05-29 10:32:25,348 - INFO - 执行裁剪操作: LAI_20000813_20000828.tif
+2025-05-29 10:32:25,358 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,358 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,358 - INFO - 开始处理: LAI_20000828_20000912.tif
+2025-05-29 10:32:25,359 - INFO - 执行裁剪操作: LAI_20000828_20000912.tif
+2025-05-29 10:32:25,369 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,369 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,369 - INFO - 开始处理: LAI_20000912_20000927.tif
+2025-05-29 10:32:25,370 - INFO - 执行裁剪操作: LAI_20000912_20000927.tif
+2025-05-29 10:32:25,380 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,380 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,380 - INFO - 开始处理: LAI_20000927_20001012.tif
+2025-05-29 10:32:25,381 - INFO - 执行裁剪操作: LAI_20000927_20001012.tif
+2025-05-29 10:32:25,391 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,392 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,392 - INFO - 开始处理: LAI_20001012_20001027.tif
+2025-05-29 10:32:25,393 - INFO - 执行裁剪操作: LAI_20001012_20001027.tif
+2025-05-29 10:32:25,404 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,404 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,404 - INFO - 开始处理: LAI_20001027_20001111.tif
+2025-05-29 10:32:25,405 - INFO - 执行裁剪操作: LAI_20001027_20001111.tif
+2025-05-29 10:32:25,415 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,415 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,415 - INFO - 开始处理: LAI_20001111_20001126.tif
+2025-05-29 10:32:25,417 - INFO - 执行裁剪操作: LAI_20001111_20001126.tif
+2025-05-29 10:32:25,426 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,427 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,427 - INFO - 开始处理: LAI_20001126_20001211.tif
+2025-05-29 10:32:25,428 - INFO - 执行裁剪操作: LAI_20001126_20001211.tif
+2025-05-29 10:32:25,437 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,437 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,437 - INFO - 开始处理: LAI_20001211_20001226.tif
+2025-05-29 10:32:25,438 - INFO - 执行裁剪操作: LAI_20001211_20001226.tif
+2025-05-29 10:32:25,448 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,448 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,448 - INFO - 开始处理: LAI_20001226_20010110.tif
+2025-05-29 10:32:25,450 - INFO - 执行裁剪操作: LAI_20001226_20010110.tif
+2025-05-29 10:32:25,459 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,459 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,460 - INFO - 开始处理: LAI_20010110_20010125.tif
+2025-05-29 10:32:25,461 - INFO - 执行裁剪操作: LAI_20010110_20010125.tif
+2025-05-29 10:32:25,470 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,470 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,471 - INFO - 开始处理: LAI_20010125_20010209.tif
+2025-05-29 10:32:25,472 - INFO - 执行裁剪操作: LAI_20010125_20010209.tif
+2025-05-29 10:32:25,482 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,482 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,482 - INFO - 开始处理: LAI_20010209_20010224.tif
+2025-05-29 10:32:25,483 - INFO - 执行裁剪操作: LAI_20010209_20010224.tif
+2025-05-29 10:32:25,493 - ERROR - 裁剪操作失败: Input shapes do not overlap raster.
+2025-05-29 10:32:25,493 - ERROR - 值错误: Input shapes do not overlap raster.
+2025-05-29 10:32:25,493 - INFO - 
+Processing completed:
+- Total files: 24
+- Successfully processed: 0
+- Failed: 24
+- Success rate: 0.00%
+        

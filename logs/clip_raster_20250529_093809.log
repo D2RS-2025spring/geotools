@@ -1,0 +1,32 @@
+2025-05-29 09:38:09,807 - INFO - Starting raster clipping process...
+2025-05-29 09:38:09,815 - INFO - Reading shapefile...
+2025-05-29 09:38:10,026 - INFO - Using raster as reference: 曾都区DEM30m.tif
+2025-05-29 09:38:10,027 - INFO - Found 20 TIF files to process
+2025-05-29 09:38:10,077 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2014q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,084 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2014q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,090 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2015q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,097 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2015q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,104 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2016q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,111 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2016q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,117 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2017q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,124 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2017q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,131 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2018q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,137 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2018q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,144 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2019q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,150 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2019q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,157 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2020q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,163 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2020q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,169 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2021q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,176 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2021q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,182 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2022q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,189 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2022q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,195 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2023q1.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,201 - ERROR - Error processing D:\A曾都区三普\环境因子处理\植被指数\NDVI\季度NDVI投影\Mean_NDVI2023q3.tif: mask() got an unexpected keyword argument 'transform'
+2025-05-29 09:38:10,202 - INFO - 
+Processing completed:
+- Total files: 20
+- Successfully processed: 0
+- Failed: 20
+- Success rate: 0.00%
+- Reference raster: 曾都区DEM30m.tif
+        
