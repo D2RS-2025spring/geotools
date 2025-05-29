@@ -10,3 +10,13 @@
 
 我们上传了示例数据，主要是栅格数据和表格数据，文件夹也创建好完成，供大家测试使用。
 在使用代码前注意安装好库！！！！
+
+
+工具介绍
+CorrCompare：比较相关性
+NCViewer：查看nc文件属性
+DistAnalyzer：数值分布
+ProjTransformer：投影转换
+SoilTexCalc：土壤质地计算
+ResampleTool：重采样工具
+NC2Tiff：将nc文件转换为tiff文件
