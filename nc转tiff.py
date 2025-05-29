@@ -2,8 +2,8 @@ import netCDF4 as nc
 import os
 import glob
 
-# 定义NC文件夹路径
-folder_path = r"E:\降雨数据"
+# 用户输入NC文件夹路径
+folder_path = input("请输入NC文件夹路径: ").strip()
 
 
 def examine_nc_file(file_path):
@@ -60,6 +60,11 @@ def examine_nc_file(file_path):
 
 # 主程序
 def main():
+    # 检查路径是否存在
+    if not os.path.exists(folder_path):
+        print(f"路径不存在: {folder_path}")
+        return
+
     # 获取文件夹中所有NC文件
     nc_files = glob.glob(os.path.join(folder_path, "*.nc"))
 
